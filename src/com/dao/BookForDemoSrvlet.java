@@ -1,16 +1,16 @@
 package com.dao;
-import javax.net.ssl.HttpsURLConnection;
-import org.json.JSONObject;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
-
-
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+
+import javax.net.ssl.HttpsURLConnection;
+
+import org.json.JSONObject;
 
 import com.dao.pojo.Demo;
 
@@ -132,6 +132,7 @@ public class BookForDemoSrvlet extends HttpServlet {
 	        JSONObject json = new JSONObject(response.toString());
 	        return json.getBoolean("success");
 
+	        
 	    } catch (Exception e) {
 	        e.printStackTrace();
 	        return false;
