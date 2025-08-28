@@ -60,6 +60,7 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     z-index: 1001;
     text-align: center;
+    place-self: center;
 }
 
 /* Close Button */
@@ -75,7 +76,7 @@ body {
 
 /* Form Styles */
 .container h3 {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     font-size: 18px;
 }
 
@@ -114,8 +115,8 @@ body {
 .input-row {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    margin-bottom: 15px;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .half-width {
@@ -135,10 +136,11 @@ input, select {
 /* Mobile section fix */
 .mobile-group {
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
 
 .mobile-group select {
+	width: max-content;
     flex: 0 0 35%;          /* fixed 35% for country code */
 }
 
@@ -176,7 +178,7 @@ input, select {
 	    <button class="close-btn" onclick="goBack()">x</button>
 	
 	    <img src="assets/images/logo.jpg" alt="PCS Cloud Lab Logo"
-	        style="width: 150px; margin-bottom: 10px;">
+	        style="width: 150px;">
 	
 	    <% if (message != null) { %>
 	        <p style="color:<%= messageColor != null ? messageColor : "red" %>; font-weight:bold;">
