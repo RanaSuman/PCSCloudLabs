@@ -19,8 +19,8 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet("/alldemosServlet")
 public class GetAllDemosServlet extends HttpServlet {
 
-
-    private static final int RECORDS_PER_PAGE = 10;
+	private static final long serialVersionUID = -5245736959619786576L;
+	private static final int RECORDS_PER_PAGE = 10;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -58,7 +58,7 @@ public class GetAllDemosServlet extends HttpServlet {
                 demo.setAddress(rs.getString("address"));
                 demo.setCourse(rs.getString("course"));
                 demo.setDate(rs.getString("date"));
-                demo.setIsSchedule(rs.getInt("isSchedule"));
+                demo.setIsSchedule(rs.getBoolean("isSchedule"));
                 demo.setScheduleDate(rs.getString("scheduleDate"));
                 demoList.add(demo);
             }

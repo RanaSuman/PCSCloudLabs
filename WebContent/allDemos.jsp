@@ -153,7 +153,7 @@
             <td><%= demo.getAddress() %></td>
             <td><%= demo.getCourse() %></td>
             <td><%= formattedDate  %></td>
-            <td><%= demo.getIsSchedule() == 1 ? "Yes" : "No" %></td>
+            <td><%= demo.getIsSchedule()%></td>
            <td><%= demo.getScheduleDate() %></td>
             
         </tr>

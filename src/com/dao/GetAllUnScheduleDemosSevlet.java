@@ -128,7 +128,7 @@ public class GetAllUnScheduleDemosSevlet extends HttpServlet {
                 demo.setAddress(rs.getString("address"));
                 demo.setCourse(rs.getString("course"));
                 demo.setDate(rs.getString("date"));
-                demo.setIsSchedule(rs.getInt("isSchedule"));
+                demo.setIsSchedule(rs.getBoolean("isSchedule"));
                 demo.setScheduleDate(rs.getString("ScheduleDate"));
  demoList.add(demo);
             }

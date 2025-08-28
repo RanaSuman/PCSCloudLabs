@@ -12,7 +12,7 @@ public class DBUtil {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			// 2. Get the connection object
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/PcsCloudlabs?allowPublicKeyRetrieval=true&useSSL=false", "root", "shivani");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3307/PcsCloudlabs?allowPublicKeyRetrieval=true&useSSL=false", "root", "asdf");
 
 		} catch (ClassNotFoundException cnfe) {
 			cnfe.printStackTrace();
