@@ -17,7 +17,7 @@ public class Demo {
 	private String date;
 	
 	private String scheduleDate;
-	private boolean isSchedule;
+	private int isSchedule;
 public Demo() {
 		
 	}
@@ -87,11 +87,11 @@ public Demo() {
 	public void setScheduleDate(String scheduleDate) {
 		this.scheduleDate = scheduleDate;
 	}
-	public boolean getIsSchedule() {
+	public int getIsSchedule() {
 	    return isSchedule;
 	}
 
-	public void setIsSchedule(boolean isSchedule) {
+	public void setIsSchedule(int isSchedule) {
 	    this.isSchedule = isSchedule;
 	}
 

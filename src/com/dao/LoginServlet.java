@@ -16,8 +16,9 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet("/loginservlet")
 public class LoginServlet extends HttpServlet {
+	private static final long serialVersionUID = 6932007174381841099L;
 
-    @Override
+	@Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String email = req.getParameter("email");
         String password = req.getParameter("password");
@@ -44,9 +45,9 @@ public class LoginServlet extends HttpServlet {
                 	req.getSession().setAttribute("LoginUser", user);
                     req.getSession().setAttribute("userEmail", email);
                     req.getSession().setAttribute("userNumber", userNumber);
-                    req.getSession().setAttribute("loginMessage", "Login successful!");
+                    req.getSession().setAttribute("loginSuccess", "Login successful!");
                     req.getSession().setAttribute("loginMessageColor", "green");
-                    resp.sendRedirect("index.jsp");
+                    resp.sendRedirect("login.jsp");
                 } else {
                     // Incorrect password
                     req.getSession().setAttribute("loginMessage", "Invalid credentials.");

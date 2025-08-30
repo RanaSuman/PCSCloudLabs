@@ -15,6 +15,8 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet("/adminloginservlet")
 public class AdminLoginServlet extends HttpServlet {
 	
+	private static final long serialVersionUID = 5697795720366676068L;
+
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
@@ -42,9 +44,9 @@ public class AdminLoginServlet extends HttpServlet {
 					
 					req.getSession().setAttribute("AdminEmail", adminEmail);
 					req.getSession().setAttribute("AdminName", adminName);
-					req.getSession().setAttribute("adminLoginMessage", "Login succussfully");
+					req.getSession().setAttribute("adminLoginSuccessMessage", "Login succussfully");
 					req.getSession().setAttribute("adminLoginMessageColor", "green");
-					resp.sendRedirect("admindashboard.jsp");
+					resp.sendRedirect("admin.jsp");
 				}else {
 					req.getSession().setAttribute("adminLoginMessage", "Login faild ! Pls check your password");
 					req.getSession().setAttribute("adminLoginMessageColor", "red");

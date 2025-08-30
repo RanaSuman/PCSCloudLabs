@@ -351,6 +351,7 @@ header .header-top .col-det .ulright li i {
 .btn-sec {
 	padding: 8px 6px;
 	background-color: #2782c2;
+	font-size: 15px;
 	color: white;
 	border: none;
 	border-radius: 5px;

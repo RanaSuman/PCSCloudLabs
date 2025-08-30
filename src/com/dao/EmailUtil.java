@@ -1,5 +1,6 @@
 package com.dao;
 
+import java.text.SimpleDateFormat;
 import java.util.Properties;
 import javax.mail.*;
 import javax.mail.internet.*;
@@ -43,7 +44,7 @@ public class EmailUtil {
                 + "<p>We will schedule your class shortly and notify you with details.</p>"
                 + "<br><p>Best regards,<br>PCS GLOBAL Pvt Ltd</p>";
         sendMail(recipientEmail, subject, body);
-        return "Registration email sent successfully";
+        return " And registration email sent successfully In Your email";
     }
 
     // ✅ Second email: Scheduled email
@@ -51,10 +52,24 @@ public class EmailUtil {
         String subject = "PCS Global Demo Class – Scheduled Successfully";
         String body = "<p>Dear <strong>" + demo.getName() + "</strong>,</p>"
                 + "<p>Your demo for <strong>\"" + demo.getCourse() + "\"</strong> has been scheduled.</p>"
-                + "<p><b>Scheduled Date:</b> " + scheduledDate + "</p>"
+                + "<p><b>Scheduled Date & Time:</b> " + formatDateTime(scheduledDate) + "</p>"
                 + "<p>Our trainer will contact you with joining details.</p>"
                 + "<br><p>Best regards,<br>PCS GLOBAL Pvt Ltd</p>";
         sendMail(recipientEmail, subject, body);
         return "Scheduled email sent successfully";
     }
-}
+    public static String formatDateTime(String dateTime) {
+        try {
+            SimpleDateFormat inputFormat = new SimpleDateFormat("yyyy-MM-dd  HH:mm");
+            SimpleDateFormat outputFormat = new SimpleDateFormat("dd-MM-yyyy  hh:mm a"); // ✅ Full Date + Time
+            return outputFormat.format(inputFormat.parse(dateTime));
+        } catch (Exception e) {
+            return dateTime; // fallback if parsing fails
+        }
+    }
+
+  }
+
+        
+    
+
