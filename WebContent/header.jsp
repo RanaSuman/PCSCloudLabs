@@ -19,9 +19,9 @@ if (loginMessage != null) {
 
 String emailmessage = (String) session.getAttribute("emailmessage");
 
-String demomessage = (String)session.getAttribute("demomessage");
+String demomessage = (String) session.getAttribute("demomessage");
 String demomessageColor = (String) session.getAttribute("demomessagecolor");
-if(demomessage !=null || emailmessage!=null || demomessageColor != null){
+if (demomessage != null || emailmessage != null || demomessageColor != null) {
 	session.removeAttribute("demomessage");
 	session.removeAttribute("emailmessage");
 	session.removeAttribute("demomessagecolor");
@@ -121,25 +121,29 @@ body {
 }
 
 /* Social Media Icons Styling */
-.col-lg-2 .ulright li a i {
+.col-lg-2 ul li a i {
 	color: #ffffff; /* Default white color for icons */
 	transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
-.col-lg-2 .ulright li a i.fa-facebook-square:hover {
+.col-lg-2 ul li a i.fa-facebook-square:hover {
 	color: #1877F2; /* Facebook hover effect */
 }
 
-.col-lg-2 .ulright li a i.fa-youtube-square:hover {
+.col-lg-2 ul li a i.fa-youtube-square:hover {
 	color: #FF0000; /* YouTube hover effect */
 }
 
-.col-lg-2 .ulright li a i.fa-instagram:hover {
+.col-lg-2 ul li a i.fa-instagram:hover {
 	color: #E4405F; /* Instagram hover effect */
 }
 
-.col-lg-2 .ulright li a i.fa-linkedin:hover {
+.col-lg-2 ul li a i.fa-linkedin:hover {
 	color: #0A66C2; /* LinkedIn hover effect */
+}
+
+.col-lg-2 ul li a i.fa-whatsapp:hover {
+	color: green; /* LinkedIn hover effect */
 }
 
 /* Media Queries for Responsiveness */
@@ -223,6 +227,7 @@ header .header-top .col-det .ulright li {
 header .header-top .col-det .ulright li i {
 	margin-right: 5px;
 }
+
 
 /* Hide elements on small screens */
 @media ( max-width : 991px) {
@@ -491,17 +496,30 @@ a {
 	<%
 	}
 	%>
-	
-	<% if (demomessage != null || emailmessage != null) { %>
-    <div id="loginMessage" class="message" style="color: <%= demomessageColor %>>; font-weight: bold; margin-top: 10px;">
-        <% if (demomessage != null) { %>
-            <%= demomessage %><br>
-        <% } %>
-        <% if (emailmessage != null) { %>
-            <%= emailmessage %>
-        <% } %>
-    </div>
-    <%} %>
+
+	<%
+	if (demomessage != null || emailmessage != null) {
+	%>
+	<div id="loginMessage" class="message"
+		style="color: <%=demomessageColor%>>; font-weight: bold; margin-top: 10px;">
+		<%
+		if (demomessage != null) {
+		%>
+		<%=demomessage%><br>
+		<%
+		}
+		%>
+		<%
+		if (emailmessage != null) {
+		%>
+		<%=emailmessage%>
+		<%
+		}
+		%>
+	</div>
+	<%
+	}
+	%>
 
 	<header class="continer-fluid ">
 		<div class="topPanel">
@@ -531,7 +549,7 @@ a {
 					</div>
 
 
-					<div class="col-lg-2 col-md-12">
+					<div class="col-lg-2 col-md-10">
 						<div class="d-flex  justify-content gap-2" id="bk-demo">
 							<!-- Added d-flex and gap-2 -->
 							<button class="btn-sec"
@@ -586,13 +604,13 @@ a {
 						</div>
 						<!-- Pop UP Content for Get a Quick Call Back Ends here-->
 					</div>
-
-
-
-
-
-					<div class="col-lg-2 col-md-12">
-						<ul class="ulright" id="lg-icons">
+						
+					<div class="col-lg-2 col-md-10 d-flex align-items-center">
+					  <ul class="d-flex justify-content-between w-100 mb-0">
+							<li><a
+								href="https://chat.whatsapp.com/Hh89hx0nZ9O5AZBs0Q1Ghr"
+								target="_blank" title="Join our WhatsApp group"> <i class="fab fa-whatsapp"></i>
+							</a></li>
 							<li><a
 								href="https://www.facebook.com/groups/kolkata.freshersgroup/members"
 								target="_blank" rel=""> <i class="fab fa-facebook-square"></i>
@@ -621,15 +639,15 @@ a {
 					<!-- Sign IN and the Log IN Section Starts Here -->
 					<!-- Sign IN and the Log IN Section Starts Here -->
 					<%
-    String userEmail = (String) session.getAttribute("userEmail");
-    boolean isLoggedIn = (userEmail != null);
-%>
+					String userEmail = (String) session.getAttribute("userEmail");
+					boolean isLoggedIn = (userEmail != null);
+					%>
 
 					<div class="col-lg-2 col-md-12" id="user-container">
 
 						<!-- Login/Signup Section: Visible when NOT logged in -->
 						<div class="login-signup"
-							style="<%= isLoggedIn ? "display:none;" : "display:block;" %>">
+							style="<%=isLoggedIn ? "display:none;" : "display:block;"%>">
 							<div class="d-flex justify-content gap-2">
 								<button class="btn-sec"
 									onclick="window.location.href='signup.jsp'">
@@ -644,7 +662,7 @@ a {
 
 						<!-- Profile Section: Visible when logged in -->
 						<div class="profile-section"
-							style="<%= isLoggedIn ? "display:block;" : "display:none;" %>">
+							style="<%=isLoggedIn ? "display:block;" : "display:none;"%>">
 							<div class="navbar-Profile">
 								<div class="profile-container">
 									<button class="profile-btn" id="profileBtn">
@@ -888,7 +906,7 @@ a {
 				</div>
 			</div>
 		</div>
-		
+
 
 
 
@@ -951,13 +969,13 @@ a {
  
 
  function handleBookDemoClick() {
-     <% if (isLoggedIn) { %>
+     <%if (isLoggedIn) {%>
          // User is logged in (or a message is available), go to demo booking
          window.location.href = 'bookdemo.jsp';
-     <% } else { %>
+     <%} else {%>
          // Not logged in — show a popup
          alert('Please sign up or log in to book a demo.');
-     <% } %>
+     <%}%>
  }
 
   </script>
