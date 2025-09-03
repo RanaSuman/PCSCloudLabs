@@ -522,7 +522,7 @@ a {
 	%>
 
 	<header class="continer-fluid ">
-		<div class="topPanel">
+<!-- 		<div class="topPanel">
 			<div class="container">
 				<div class="row col-det">
 					<div class="col-lg-12 d-lg-block">
@@ -534,7 +534,7 @@ a {
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<div class="clearFix"></div>
 		<div class="header-top">
 			<div class="container">

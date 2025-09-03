@@ -1064,6 +1064,12 @@ img, svg {
 }
 
 /* =============================Styling for Drop-us-a-Query Ends Here  =============================== */
+
+/* =============================Styling for Whatsapp-Pop-Up Starts Here  =============================== */
+
+
+/* =============================Styling for Whatsapp-Pop-Up Ends Here  =============================== */
+
 </style>
 </head>
 
@@ -1508,7 +1514,7 @@ img, svg {
 				</div>
 				
 				<!-- Team Member 3 -->
-				<div class="col-md-3 col-sm-6">
+				<!-- <div class="col-md-3 col-sm-6">
 					<div class="single-usr">
 						<img src="assets/images/team/team-memb3.jpg" alt="Arijit Sen">
 						<div class="det-o">
@@ -1516,7 +1522,7 @@ img, svg {
 							<i>AWS Cloud Trainer</i>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- Team Member 4 -->
 				<div class="col-md-3 col-sm-6">
 					<div class="single-usr">
@@ -1531,6 +1537,7 @@ img, svg {
 			</div>
 		</div>
 		<%@include file="drop-us-a-query.jsp"%>
+		<%@include file ="whatsapp-pop-up.jsp" %>
 	</section>
 </body>
 </html>
