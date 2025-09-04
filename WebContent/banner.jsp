@@ -637,7 +637,7 @@ body {
             <div class="carousel-item active">
               <div class="containr">
                 <div class="text-contet">
-                  <h2>Software Training & 100% Placement</h2>
+                  <h2>Software Training & Placement</h2>
                   <p>
                      Get a Job-Guranteed!
                      Enroll Now For Emerging Technologies and Trending Courses with Job Assurance
@@ -659,7 +659,7 @@ body {
             <div class="carousel-item">
               <div class="containr">
                 <div class="text-contet">
-                  <h2>Software Training & 100% Placement</h2>
+                  <h2>Software Training & Placement</h2>
                   <p>
                     Get a Job-Guranteed!
                     Enroll Now For Emerging Technologies and Trending Courses with Job Assurance

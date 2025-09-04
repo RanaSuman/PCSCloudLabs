@@ -275,11 +275,11 @@ iframe {
 	<div class="page-nav no-margin row">
 		<div class="container"></div>
 	</div>
-	<div class="row contact-rooo no-margin">
+	<div class="row contact-rooo">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 contact-form">
-					<div class="row no-margin">
+					<div class="row mt-5">
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249759.19784092825!2d79.10145254589841!3d12.009924873581818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1448883859107"
 							allowfullscreen></iframe>
@@ -356,17 +356,19 @@ iframe {
 					<div>
 						<h4 style="margin-top: 10px; color: royalblue">Bengaluru -
 							Headquarter</h4>
-						SpringBoard <br /> Dr Puneeth Rajkumar Rd,Mahadevapura <br />
-						Land Mark - Beside More Hypermart Mahadevpura <br /> Mr. Arijit
-						Sanyal- 9836812465 <br /> Mr. Utpal Anand Pathak - 6205197761
-						Phone- (+91) 033-23440159 <br />
+							57/65, Chikkalakshmaiah Layout,<br>
+							Bengaluru, Karnataka 560029<br>
+							Landmark: Opposite Beauty Trips or Beyond Health medical store 
+							<br>Phone- (+91) 8697741611
 					</div>
 
 					<div>
 						<h4 style="margin-top: 10px; color: royalblue">PCS Cloud Labs
 							-Kolkata,WB</h4>
-						DN-36, Suite-1101, Primarc Tower, Saltlake , Sector-v , Kolkata-91
-						<br /> Phone: Mr. Sunit Chaudhuri +91-8334001667
+							914, Merlin Infinite DN-51, 9th Floor,<br>
+							Street Number 11, DN Block, Sector V, Bidhannagar,<br>
+							Kolkata, West Bengal 700091<br>
+							Phone: (+91) 8697741611
 					</div>
 
 					<div>
@@ -374,24 +376,20 @@ iframe {
 							- Bhubaneswar,Odisha</h4>
 						Awfis <br /> Jayadev Vihar, Nandankanan Rd, Nayapalli,
 						Bhubaneswar, Odisha - 751013 <br /> Land Mark - Opposite Nalco
-						Headquarters <br /> Contact Person : Suman Ananya Sahoo -
-						7608807457
+						Headquarters <br /> Contact Person : Mr. Alok Halder - +91 86977 41611 
 					</div>
 					<div>
 						<h4 style="margin-top: 10px; color: royalblue">PCS Cloud Labs
 							- Noida,Uttar Pradesh</h4>
 						Sharkspace Coworking <br /> First floor, A-83, Sector 63 Rd, A
 						Block, Sector 63, Noida, Uttar Pradesh 201301 <br /> Land Mark -
-						J9CH+7X Noida, Uttar Pradesh <br /> Contact Person : Ujjawal
-						Chandra - 9717076341 ,Chandan Das - 7654140885 ,Sunil Patel -
-						8318955731
+						J9CH+7X Noida, Uttar Pradesh <br /> Contact Person : Mr. Alok Halder - +91 86977 41611
 					</div>
 					<div>
 						<h4 style="margin-top: 10px; color: royalblue">PCS Cloud Labs
 							- PAN India & Overseas</h4>
 
-						Contact Person : Mr. Arijit Sanyal- 9836812465 | Mr. Utpal Anand
-						Pathak - 6205197761 | Mr. Sunit Chaudhuri +91-8334001667
+						Contact Person : Mr. Alok Halder - +91 86977 41611 | Abhishek Ghosh - +91 6296 373 387 | Dipanwita Mukherjee - +91 84680 38415
 					</div>
 				</div>
 			</div>
@@ -427,7 +425,8 @@ iframe {
 					<div class="contact-store-picture loc">
 						<div class="contact-store-img">
 							<img decoding="async" src="assets/images/content/kolkata.jpeg"
-								alt="Kolkata Orangemantra" class="lazyloaded">
+								alt="Kolkata Orangemantra" class="lazyloaded"
+								style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
 						</div>
 						<div class="contact-store-title">
 							<h3>Kolkata Saltlake</h3>

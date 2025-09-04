@@ -62,7 +62,7 @@
 				</div>
 				<div class="d-flex align-items-center">
 					<i class="fas fa-phone-alt mr-2"></i>
-					<p class="small mb-0">+91 123 456 7890</p>
+					<p class="small mb-0">+91 86977 41611</p>
 				</div>
 			</div>
 

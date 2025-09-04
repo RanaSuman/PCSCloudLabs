@@ -228,7 +228,6 @@ header .header-top .col-det .ulright li i {
 	margin-right: 5px;
 }
 
-
 /* Hide elements on small screens */
 @media ( max-width : 991px) {
 	header .header-top .btn-primar {
@@ -462,7 +461,7 @@ a {
 	top: 50%; /* Adjust as needed */
 	left: 50%;
 	transform: translateX(-50%); /* Centers it */
-	background: #IIII; /* Green success color */
+	background:  <%=messageColor%>; /* Green success color */
 	padding: 12px 25px;
 	border-radius: 8px;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
@@ -522,20 +521,7 @@ a {
 	%>
 
 	<header class="continer-fluid ">
-<!-- 		<div class="topPanel">
-			<div class="container">
-				<div class="row col-det">
-					<div class="col-lg-12 d-lg-block">
-						<ul class="ulleft">
-							<li>Our Special Offer - Get 3 Courses at 24999/- Only. <a
-								href="#">Read more...</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div> -->
-		<div class="clearFix"></div>
+
 		<div class="header-top">
 			<div class="container">
 				<div class="row col-det">
@@ -604,12 +590,13 @@ a {
 						</div>
 						<!-- Pop UP Content for Get a Quick Call Back Ends here-->
 					</div>
-						
+
 					<div class="col-lg-2 col-md-10 d-flex align-items-center">
-					  <ul class="d-flex justify-content-between w-100 mb-0">
+						<ul class="d-flex justify-content-between w-100 mb-0">
 							<li><a
 								href="https://chat.whatsapp.com/Hh89hx0nZ9O5AZBs0Q1Ghr"
-								target="_blank" title="Join our WhatsApp group"> <i class="fab fa-whatsapp"></i>
+								target="_blank" title="Join our WhatsApp group"> <i
+									class="fab fa-whatsapp"></i>
 							</a></li>
 							<li><a
 								href="https://www.facebook.com/groups/kolkata.freshersgroup/members"
@@ -908,77 +895,92 @@ a {
 		</div>
 
 
+		<div class="clearFix"></div>
+
+		<div class="topPanel">
+			<div class="container">
+				<div class="row col-det">
+					<div class="col-lg-12 d-lg-block">
+						<ul class="ulleft">
+							<li>Slogan
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
 
 
 		<!-- JavaScript -->
 		<script>
-  // Function to show the popup
-  function showPopup(popupId) {
-    document.getElementById(popupId).style.display = 'block';
-  }
+			  // Function to show the popup
+			  function showPopup(popupId) {
+			    document.getElementById(popupId).style.display = 'block';
+			  }
+			
+			  // Function to close the popup (one definition for both login and signup)
+			  function closePopup(popupId) {
+			    document.getElementById(popupId).style.display = 'none';
+			  }
+			
+			  // Optional: Close the popup when clicking outside of it
+			  window.onclick = function(event) {
+			    const overlays = document.querySelectorAll(".popup-overlay");
+			    overlays.forEach((overlay) => {
+			      if (event.target === overlay) {
+			        overlay.style.display = "none";
+			      }
+			    });
+			  };
+			  
+			  // Hide the message after 2 seconds (2000 ms)
+			  setTimeout(function() {
+			      var msg = document.getElementById("signupMessage");
+			      if (msg) {
+			          msg.style.display = "none";
+			      }
+			  }, 2000); // 2 seconds
+			  
+			  
+			  
+			  
+			  
+			  // Hide the login message after 2 seconds (2000 ms)
+			  setTimeout(function() {
+			      var loginMsg = document.getElementById("loginMessage");
+			      if (loginMsg) {
+			          loginMsg.style.display = "none";
+			      }
+			  }, 2000);
+			  
+			//Toggle dropdown menu when profile button is clicked
+			  document.getElementById("profileBtn").addEventListener("click", function(event) {
+			   // Prevent event bubbling so that the document click listener does not immediately close the dropdown.
+			   event.stopPropagation();
+			   document.getElementById("dropdownContent").classList.toggle("show");
+			 });
+			
+			 // Hide the dropdown if the user clicks outside of it
+			 document.addEventListener("click", function() {
+			   var dropdown = document.getElementById("dropdownContent");
+			   if (dropdown.classList.contains("show")) {
+			     dropdown.classList.remove("show");
+			   }
+			 });
+			 
+			
+			 function handleBookDemoClick() {
+			     <%if (isLoggedIn) {%>
+			         // User is logged in (or a message is available), go to demo booking
+			         window.location.href = 'bookdemo.jsp';
+			     <%} else {%>
+			         // Not logged in — show a popup
+			         alert('Please sign up or log in to book a demo.');
+			     <%}%>
+			 }
 
-  // Function to close the popup (one definition for both login and signup)
-  function closePopup(popupId) {
-    document.getElementById(popupId).style.display = 'none';
-  }
-
-  // Optional: Close the popup when clicking outside of it
-  window.onclick = function(event) {
-    const overlays = document.querySelectorAll(".popup-overlay");
-    overlays.forEach((overlay) => {
-      if (event.target === overlay) {
-        overlay.style.display = "none";
-      }
-    });
-  };
-  
-  // Hide the message after 2 seconds (2000 ms)
-  setTimeout(function() {
-      var msg = document.getElementById("signupMessage");
-      if (msg) {
-          msg.style.display = "none";
-      }
-  }, 2000); // 2 seconds
-  
-  
-  
-  
-  
-  // Hide the login message after 2 seconds (2000 ms)
-  setTimeout(function() {
-      var loginMsg = document.getElementById("loginMessage");
-      if (loginMsg) {
-          loginMsg.style.display = "none";
-      }
-  }, 2000);
-  
-//Toggle dropdown menu when profile button is clicked
-  document.getElementById("profileBtn").addEventListener("click", function(event) {
-   // Prevent event bubbling so that the document click listener does not immediately close the dropdown.
-   event.stopPropagation();
-   document.getElementById("dropdownContent").classList.toggle("show");
- });
-
- // Hide the dropdown if the user clicks outside of it
- document.addEventListener("click", function() {
-   var dropdown = document.getElementById("dropdownContent");
-   if (dropdown.classList.contains("show")) {
-     dropdown.classList.remove("show");
-   }
- });
- 
-
- function handleBookDemoClick() {
-     <%if (isLoggedIn) {%>
-         // User is logged in (or a message is available), go to demo booking
-         window.location.href = 'bookdemo.jsp';
-     <%} else {%>
-         // Not logged in — show a popup
-         alert('Please sign up or log in to book a demo.');
-     <%}%>
- }
-
-  </script>
+		</script>
 	</header>
 </body>
 

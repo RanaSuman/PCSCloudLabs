@@ -8,7 +8,7 @@
 	String adminLoginMessageColor = (String) session.getAttribute("adminLoginMessageColor");
 	
 	if (adminLoginSuccessMessage != null) {
-    	response.setHeader("Refresh", "4; URL=admindashboard.jsp");
+    	response.setHeader("Refresh", "1; URL=admindashboard.jsp");
     }
 %>
 

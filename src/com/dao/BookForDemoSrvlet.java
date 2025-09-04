@@ -57,7 +57,7 @@ public class BookForDemoSrvlet extends HttpServlet {
 				// Step-1 and Step-2
 				connection = DBUtil.getConnection();
 
-				String sql = "SELECT * FROM user WHERE email = ?";
+				String sql = "SELECT * FROM demo WHERE email = ?";
 				PreparedStatement pst = connection.prepareStatement(sql);
 				pst.setString(1, email);
 

@@ -21,6 +21,7 @@
 	font-weight: bold;
 	color: #333;
 	text-align: center;
+	margin-top:5rem;
 	margin-bottom: 15px;
 	animation: fadeIn 1s ease-in-out;
 }

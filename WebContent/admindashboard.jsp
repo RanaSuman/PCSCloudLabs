@@ -124,11 +124,7 @@
             <h2>75</h2>
             <p>Scheduled Demos</p>
         </div>
-        <div class="stat-card">
-            <i class="fas fa-file-invoice-dollar"></i>
-            <h2>30</h2>
-            <p>Invoices Generated</p>
-        </div>
+        
     </div>
 </div>
 
