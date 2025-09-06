@@ -9,29 +9,25 @@
 		<i class="fa-solid fa-gear"></i> Admin Panel
 	</h3>
 	<ul>
-		<li><a href="admindashboard.jsp"><i
-				class="fa-solid fa-chart-line"></i> Dashboard</a></li>
-		<li><a href="unscheduledDemosServlet"><i
-				class="fa-regular fa-clock"></i> Unscheduled Demos</a></li>
-		<li><a href="alldemosServlet"><i
-				class="fa-solid fa-folder-open"></i> All Demos</a></li>
-		<li><a href="#" onclick="showLogoutModal(event)"> <i
-				class="fa-solid fa-right-from-bracket"></i> Logout
-		</a></li>
+		<li><a href="admindashboard.jsp"><i class="fa-solid fa-chart-line"></i> Dashboard</a></li>
+		<li><a href="unscheduledDemosServlet"><i class="fa-regular fa-clock"></i> Unscheduled Demos</a></li>
+		<li><a href="alldemosServlet"><i class="fa-solid fa-folder-open"></i> All Demos</a></li>
+		<li><a href="onGoingEventsServelt"><i class="fa-solid fa-calendar-check"></i> OnGoing Events</a></li>
+		<li><a href="#" onclick="showLogoutModal(event)"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
 	</ul>
 </div>
 
 <!-- Logout Modal -->
-<div id="logoutModal" class="modal">
-    <div class="modal-content">
-        <div class="modal-header">
+<div id="logoutModal" class="log-modal">
+    <div class="log-modal-content">
+        <div class="log-modal-header">
             <h3>Confirm Logout</h3>
-            <span class="close-btn" onclick="closeLogoutModal()">&times;</span>
+            <span class="log-close-btn" onclick="closeLogoutModal()">&times;</span>
         </div>
-        <div class="modal-body">
+        <div class="log-modal-body">
             <p>Are you sure you want to logout from your account?</p>
         </div>
-        <div class="modal-footer">
+        <div class="log-modal-footer">
             <button class="btn-cancel" onclick="closeLogoutModal()">Cancel</button>
             <form method="post" action="logout.jsp" style="display:inline;">
                 <button type="submit" class="btn-logout">Logout</button>
@@ -125,7 +121,7 @@ body {
 }
 
 /* Modal overlay */
-.modal {
+.log-modal {
     display: none;
     position: fixed;
     z-index: 1000;
@@ -138,11 +134,11 @@ body {
 }
 
 /* Modal content */
-.modal-content {
+.log-modal-content {
     background: linear-gradient(145deg, #ffffff, #f1f5f9);
     border-radius: 12px;
     width: 90%;
-    max-width: 400px;
+    max-width: 450px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     animation: slideDown 0.3s ease;
     position: relative;
@@ -155,7 +151,7 @@ body {
 }
 
 /* Header with close button */
-.modal-header {
+.log-modal-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -163,14 +159,17 @@ body {
     margin-bottom: 15px;
 }
 
-.modal-header h3 {
+.log-modal-header h3 {
+	padding-left:10px;
     margin: 0;
     color: #333;
     font-size: 22px;
     font-weight: 600;
 }
 
-.close-btn {
+.log-close-btn {
+	padding-right: 10px;
+	padding-bottom: 5px;
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
@@ -178,19 +177,20 @@ body {
     transition: color 0.2s ease;
 }
 
-.close-btn:hover {
+.log-close-btn:hover {
     color: #333;
 }
 
 /* Modal body */
-.modal-body p {
+.log-modal-body p {
+	padding-bottom: 10px;
     font-size: 16px;
     color: #555;
     margin: 10px 0;
 }
 
 /* Footer buttons */
-.modal-footer {
+.log-modal-footer {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -198,8 +198,8 @@ body {
     margin-top: 15px;
 }
 
-.modal-footer button {
-    padding: 12px 75px;
+.log-modal-footer button {
+    padding: 12px 65px;
     font-size: 15px;
     border-radius: 6px;
     border: none;

@@ -389,13 +389,12 @@ iframe {
 						<h4 style="margin-top: 10px; color: royalblue">PCS Cloud Labs
 							- PAN India & Overseas</h4>
 
-						Contact Person : Mr. Alok Halder - +91 86977 41611 | Abhishek Ghosh - +91 6296 373 387 | Dipanwita Mukherjee - +91 84680 38415
+						Contact Person : Mr. Alok Halder - +91 86977 41611 | Abhishek Ghosh - +91 6296 373 387 | Dipanwita Mukherjee - +91 86173 58027
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<section>
 		<h2 class="offertitle">Our Work Location</h2>
 		<div class="container">
