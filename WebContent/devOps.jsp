@@ -651,63 +651,63 @@ body {
 
 	<!-- Banner Section -->
 	<div class="slider-detail">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="containr">
-                        <div class="text-contet">
-                          <h2> DevOps Training & Certification</h2>
-                          <p>
-                            Kickstart your DevOps career with industry-focused training!<br>
-                            Hands-on projects, job assistance,and expert mentorship.<br>
-                            Flexible learning options for beginners and professionals.<br>
-                            Trusted by 5000+ professionals worldwide.
-                          </p>
-                          <a class="enrol-btn" href="#" >Enroll Now</a>
-                          <p class="powered-by">
-                            Powered by <span>PCS Cloud Labs</span>
-                          </p>
-                        </div>
-                        <div class="carousl">
-                          <img alt="Java Full Stack Training and Certification icons" height="450" src="assets/images/slider/dev2.png" width="450"/>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="containr">
-                        <div class="text-contet">
-                          <h2>DevOps Developer Training</h2>
-                          <p>
-                            Kickstart your DevOps career with industry-focused training!<br>
-                            Hands-on projects, job assistance,and expert mentorship.<br>
-                            Flexible learning options for beginners and professionals.<br>
-                            Trusted by 5000+ professionals worldwide.
-                          </p>
-                          <a class="enrol-btn" href="#">Learn More</a>
-                          <p class="powered-by">
-                            Powered by <span>PCS Cloud Labs</span>
-                          </p>
-                        </div>
-                        <div class="carousl">
-                          <img alt="Advanced Java Full Stack Training" height="450" src="assets/images/slider/dev2.png" width="450"/>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-            </div>
+	    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	      <ol class="carousel-indicators">
+	        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	      </ol>
+	      <div class="carousel-inner">
+	        <div class="carousel-item active">
+	          <div class="containr">
+	            <div class="text-contet">
+	              <h2> DevOps Training & Certification</h2>
+	              <p>
+	                Kickstart your DevOps career with industry-focused training!<br>
+	                Hands-on projects, job assistance,and expert mentorship.<br>
+	                Flexible learning options for beginners and professionals.<br>
+	                Trusted by 5000+ professionals worldwide.
+	              </p>
+	              <a class="enrol-btn" href="#" >Enroll Now</a>
+	              <p class="powered-by">
+	                Powered by <span>PCS Cloud Labs</span>
+	              </p>
+	            </div>
+	            <div class="carousl">
+	              <img alt="Java Full Stack Training and Certification icons" height="450" src="assets/images/slider/dev2.png" width="450"/>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="carousel-item">
+	          <div class="containr">
+	            <div class="text-contet">
+	              <h2>DevOps Developer Training</h2>
+	              <p>
+	                Kickstart your DevOps career with industry-focused training!<br>
+	                Hands-on projects, job assistance,and expert mentorship.<br>
+	                Flexible learning options for beginners and professionals.<br>
+	                Trusted by 5000+ professionals worldwide.
+	              </p>
+	              <a class="enrol-btn" href="#">Learn More</a>
+	              <p class="powered-by">
+	                Powered by <span>PCS Cloud Labs</span>
+	              </p>
+	            </div>
+	            <div class="carousl">
+	              <img alt="Advanced Java Full Stack Training" height="450" src="assets/images/slider/dev2.png" width="450"/>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	        <span class="sr-only">Previous</span>
+	      </a>
+	      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	        <span class="sr-only">Next</span>
+	      </a>
+	    </div>
+	</div>
 	<!-- Course Details Section -->
 	<div class="container mt-5">
 		<h2 class="text-center mb-4" style="font-weight:bold">DevOps Course Details</h2>
@@ -768,106 +768,107 @@ body {
 		</div>
 	</div>
 
-<section style="background-color: #0274be; padding: 20px; margin-top:20px">
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Left Section: Salesforce Table -->
-            <div class="col-lg-9 col-md-7 col-sm-12 mb-3">
-                <div class="bg-white p-3 rounded shadow-sm">
-                    <h2 class="text-center mb-4" style="color: black; font-weight: bold; margin-top: 20px;">
-                        Plenary for DevOps Certification Training
-                    </h2>
-                    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
-                        <!-- Table Section -->
-                        <div class="table-responsive" style="width: 100%; max-width: 750px; margin: 20px 0 30px 40px;">
-                            <table class="table table-bordered text-center m-0">
-                                <thead style="background-color: #003b70;">
-                                    <tr>
-                                        <th>Track</th>
-                                        <th>Week Days</th>
-                                        <th>Weekends</th>
-                                        <th>Fast Track</th>
-                                    </tr>
-                                </thead>
-                                <tbody style="color: black;">
-                                    <tr>
-                                        <td>Course Duration</td>
-                                        <td>6 Months</td>
-                                        <td>24 Weekends</td>
-                                        <td>30 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Hours</td>
-                                        <td>4 Hrs. Per Day</td>
-                                        <td>8 Hrs. Per Weekend</td>
-                                        <td>6+ Hrs. Per Day</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Training Mode</td>
-                                        <td>Classroom/Online</td>
-                                        <td>Classroom/Online</td>
-                                        <td>Classroom/Online</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <!-- Course Price Section -->
-                        <div class="text-center ms-3 mt-3 mt-sm-0 p-3" style="width: 100%; max-width: 250px; background-color: #f8f9fa; border-radius: 8px;">
-                            <p style="color: black; font-size: 1.6rem; font-weight: bold; margin-bottom: 10px;">Course Price at:</p>
-                            <span class="h3" style="font-size: 2rem; color: #003b70; font-weight: bold;">20,000 + GST</span>
-                        </div>
-                    </div>
-                    <div class="d-flex  justify-content gap-2" id="bk-demo">
-							<!-- Added d-flex and gap-2 -->
-							<button class="enrol-btn"
-								onclick="handleBookDemoClick()">
-								<i class="fas fa-calendar-alt"></i> Book Free Demo
-							</button>
-							
-							<button class="enrol-btn"
-								onclick="handleAddToCardClick()">
-								<i class="fas fa-calendar-alt"></i> Add To Card
-							</button>
-
-						</div>
-                </div>
-            </div>
-
-            <!-- Right Section: Form -->
-<!--             <div class="col-lg-3 col-md-5 col-sm-12">
-                <div class="form-container bg-white p-4 rounded shadow-sm">
-                    <h3 class="mb-4 text-center">Form Section</h3>
-                    <form style="color:black">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email" >
-                        </div>
-                         <div class="mb-3">
-                            <label for="number" class="form-label">Phone No</label>
-                            <input type="email" class="form-control" id="email" placeholder="Phone Number">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">ENROLL NOW</button>
-                    </form>
-                </div>
-            </div>
-        
-         -->
-        
-        </div>
-    </div>
-</section>
-
-
-
+	<section style="background-color: #0274be; padding: 20px; margin-top:20px">
+	    <div class="container-fluid">
+            <!-- <div class="row"> -->
+            	<!-- Left Section: DevOps Table -->
+	           	<!--  <div class="col-lg-9 col-md-7 col-sm-12 mb-3"> -->
+	            <div class="col-lg-full col-md-full col-sm-full mb-3">
+	                <div class="bg-white p-3 rounded shadow-sm">
+	                    <h2 class="text-center mb-4" style="color: black; font-weight: bold; margin-top: 20px;">
+	                        Plenary for DevOps Certification Training
+	                    </h2>
+	                    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+	                        <!-- Table Section -->
+	                        <div class="table-responsive" style="width: 100%; max-width: 1050px; margin: 20px 0 30px 40px;"> <!-- Change in max Width (750 to 1015) -->
+	                            <table class="table table-bordered text-center m-0">
+	                                <thead style="background-color: #003b70;">
+	                                    <tr>
+	                                        <th>Track</th>
+	                                        <th>Week Days</th>
+	                                        <th>Weekends</th>
+	                                        <th>Fast Track</th>
+	                                    </tr>
+	                                </thead>
+	                                <tbody style="color: black;">
+	                                    <tr>
+	                                        <td>Course Duration</td>
+	                                        <td>6 Months</td>
+	                                        <td>24 Weekends</td>
+	                                        <td>30 Days</td>
+	                                    </tr>
+	                                    <tr>
+	                                        <td>Hours</td>
+	                                        <td>4 Hrs. Per Day</td>
+	                                        <td>8 Hrs. Per Weekend</td>
+	                                        <td>6+ Hrs. Per Day</td>
+	                                    </tr>
+	                                    <tr>
+	                                        <td>Training Mode</td>
+	                                        <td>Classroom/Online</td>
+	                                        <td>Classroom/Online</td>
+	                                        <td>Classroom/Online</td>
+	                                    </tr>
+	                                </tbody>
+	                            </table>
+	                        </div>
+	
+	                        <!-- Course Price Section -->
+	                        <div class="text-center ms-3 mt-3 mt-sm-0 p-3" style="width: 100%; max-width: 250px; background-color: #f8f9fa; border-radius: 8px;">
+	                            <p style="color: black; font-size: 1.6rem; font-weight: bold; margin-bottom: 10px;">Course Price at:</p>
+	                            <span class="h3" style="font-size: 2rem; color: #003b70; font-weight: bold;">20,000 + GST</span>
+	                        </div>
+	                    </div>
+	                    <div class="d-flex  justify-content gap-2" id="bk-demo">
+								<!-- Added d-flex and gap-2 -->
+								<button class="enrol-btn"
+									onclick="handleBookDemoClick()" style="cursor: pointer;">
+									<i class="fas fa-calendar-alt"></i> Book Free Demo
+								</button>
+								
+								<button class="enrol-btn"
+									onclick="handleAddToCardClick()" style="cursor: pointer;">
+									<i class="fas fa-calendar-alt"></i> Add To Card
+								</button>
+	
+							</div>
+	                </div>
+	            </div>
+	
+	            <!-- Right Section: Form -->
+	<!--             <div class="col-lg-3 col-md-5 col-sm-12">
+	                <div class="form-container bg-white p-4 rounded shadow-sm">
+	                    <h3 class="mb-4 text-center">Form Section</h3>
+	                    <form style="color:black">
+	                        <div class="mb-3">
+	                            <label for="name" class="form-label">Name</label>
+	                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+	                        </div>
+	                        <div class="mb-3">
+	                            <label for="email" class="form-label">Email</label>
+	                            <input type="email" class="form-control" id="email" placeholder="Enter your email" >
+	                        </div>
+	                         <div class="mb-3">
+	                            <label for="number" class="form-label">Phone No</label>
+	                            <input type="email" class="form-control" id="email" placeholder="Phone Number">
+	                        </div>
+	                        <div class="mb-3">
+	                            <label for="message" class="form-label">Message</label>
+	                            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+	                        </div>
+	                        <button type="submit" class="btn btn-primary w-100">ENROLL NOW</button>
+	                    </form>
+	                </div>
+	            </div>
+	        
+	         -->
+	        
+	        </div>
+        <!-- </div> -->
+	</section>
+	
+	
+	
 
 	<!-- Footer Section -->
 	<footer class="text-center">

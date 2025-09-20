@@ -784,16 +784,17 @@ body {
 
  <section style="background-color: #0274be; padding: 20px; margin-top:20px">
     <div class="container-fluid">
-        <div class="row">
-            <!-- Left Section: Salesforce Table -->
-            <div class="col-lg-9 col-md-7 col-sm-12 mb-3">
+		<!-- <div class="row"> -->
+         	<!-- Left Section: Mean & Mern Table -->
+         	<!--  <div class="col-lg-9 col-md-7 col-sm-12 mb-3"> -->
+            <div class="col-lg-full col-md-full col-sm-full mb-3">
                 <div class="bg-white p-3 rounded shadow-sm">
                     <h2 class="text-center mb-4" style="color: black; font-weight: bold; margin-top: 20px;">
                         Plenary for MEAN/MERN  Certification FSD Training
                     </h2>
                     <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
                         <!-- Table Section -->
-                        <div class="table-responsive" style="width: 100%; max-width: 750px; margin: 20px 0 30px 40px;">
+                        <div class="table-responsive" style="width: 100%; max-width: 1050px; margin: 20px 0 30px 40px;"> <!-- Change in max Width (750 to 1015) -->
                             <table class="table table-bordered text-center m-0">
                                 <thead style="background-color: #003b70;">
                                     <tr>
@@ -835,12 +836,12 @@ body {
                     <div class="d-flex  justify-content gap-2" id="bk-demo">
 							<!-- Added d-flex and gap-2 -->
 							<button class="enrol-btn"
-								onclick="handleBookDemoClick()">
+								onclick="handleBookDemoClick()" style="cursor: pointer;">
 								<i class="fas fa-calendar-alt"></i> Book Free Demo
 							</button>
 							
 							<button class="enrol-btn"
-								onclick="handleAddToCardClick()">
+								onclick="handleAddToCardClick()" style="cursor: pointer;">
 								<i class="fas fa-calendar-alt"></i> Add To Card
 							</button>
 
@@ -876,7 +877,7 @@ body {
             </div>
          -->
         </div>
-    </div>
+    <!-- </div> -->
 </section>
 	<!-- Salesforce Developer Certification Training Ends here -->
 

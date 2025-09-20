@@ -831,103 +831,104 @@ body {
 		</div>
 	</div>
 
- <section style="background-color: #0274be; padding: 20px; margin-top:20px">
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Left Section: Salesforce Table -->
-            <div class="col-lg-9 col-md-7 col-sm-12 mb-3">
-                <div class="bg-white p-3 rounded shadow-sm">
-                    <h2 class="text-center mb-4" style="color: black; font-weight: bold; margin-top: 20px;">
-                        Plenary for Java Certification FSD Training
-                    </h2>
-                    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
-                        <!-- Table Section -->
-                        <div class="table-responsive" style="width: 100%; max-width: 750px; margin: 20px 0 30px 40px;">
-                            <table class="table table-bordered text-center m-0">
-                                <thead style="background-color: #003b70;">
-                                    <tr>
-                                        <th>Track</th>
-                                        <th>Week Days</th>
-                                        <th>Weekends</th>
-                                        <th>Fast Track</th>
-                                    </tr>
-                                </thead>
-                                <tbody style="color: black;">
-                                    <tr>
-                                        <td>Course Duration</td>
-                                        <td>6 Months</td>
-                                        <td>24 Weekends</td>
-                                        <td>30 Days</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Hours</td>
-                                        <td>4 Hrs. Per Day</td>
-                                        <td>8 Hrs. Per Weekend</td>
-                                        <td>6+ Hrs. Per Day</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Training Mode</td>
-                                        <td>Classroom/Online</td>
-                                        <td>Classroom/Online</td>
-                                        <td>Classroom/Online</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <!-- Course Price Section -->
-                        <div class="text-center ms-3 mt-3 mt-sm-0 p-3" style="width: 100%; max-width: 250px; background-color: #f8f9fa; border-radius: 8px;">
-                            <p style="color: black; font-size: 1.6rem; font-weight: bold; margin-bottom: 10px;">Course Price at:</p>
-                            <span class="h3" style="font-size: 2rem; color: #003b70; font-weight: bold;">20,000 + GST</span>
-                        </div>
-                    </div>
-                    <div class="d-flex  justify-content gap-2" id="bk-demo">
-							<!-- Added d-flex and gap-2 -->
-							<button class="enrol-btn"
-								onclick="handleBookDemoClick()">
-								<i class="fas fa-calendar-alt"></i> Book Free Demo
-							</button>
-							
-							<button class="enrol-btn"
-								onclick="handleAddToCardClick()">
-								<i class="fas fa-calendar-alt"></i> Add To Card
-							</button>
-
-						</div>
-                </div>
-                
-				
-            </div>
-
-            <!-- Right Section: Form -->
-<!--             <div class="col-lg-3 col-md-5 col-sm-12">
-                <div class="form-container bg-white p-4 rounded shadow-sm">
-                    <h3 class="mb-4 text-center">Form Section</h3>
-                    <form style="color:black">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email" >
-                        </div>
-                         <div class="mb-3">
-                            <label for="number" class="form-label">Phone No</label>
-                            <input type="email" class="form-control" id="email" placeholder="Phone Number">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">ENROLL NOW</button>
-                    </form>
-                </div>
-            </div>
-         -->
-        </div>
-    </div>
-</section>
+	<section style="background-color: #0274be; padding: 20px; margin-top:20px">
+	    <div class="container-fluid">
+	        <!-- <div class="row"> -->
+	            <!-- Left Section: Salesforce Table -->
+	           	<!--  <div class="col-lg-9 col-md-7 col-sm-12 mb-3"> -->
+	            <div class="col-lg-full col-md-full col-sm-full mb-3">
+	                <div class="bg-white p-3 rounded shadow-sm">
+	                    <h2 class="text-center mb-4" style="color: black; font-weight: bold; margin-top: 20px;">
+	                        Plenary for Java Certification FSD Training
+	                    </h2>
+	                    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+	                        <!-- Table Section -->
+	                        <div class="table-responsive" style="width: 100%; max-width: 1050px; margin: 20px 0 30px 40px;"> <!-- Change in max-width (750 to 1015) -->
+	                            <table class="table table-bordered text-center m-0">
+	                                <thead style="background-color: #003b70;">
+	                                    <tr>
+	                                        <th>Track</th>
+	                                        <th>Week Days</th>
+	                                        <th>Weekends</th>
+	                                        <th>Fast Track</th>
+	                                    </tr>
+	                                </thead>
+	                                <tbody style="color: black;">
+	                                    <tr>
+	                                        <td>Course Duration</td>
+	                                        <td>6 Months</td>
+	                                        <td>24 Weekends</td>
+	                                        <td>30 Days</td>
+	                                    </tr>
+	                                    <tr>
+	                                        <td>Hours</td>
+	                                        <td>4 Hrs. Per Day</td>
+	                                        <td>8 Hrs. Per Weekend</td>
+	                                        <td>6+ Hrs. Per Day</td>
+	                                    </tr>
+	                                    <tr>
+	                                        <td>Training Mode</td>
+	                                        <td>Classroom/Online</td>
+	                                        <td>Classroom/Online</td>
+	                                        <td>Classroom/Online</td>
+	                                    </tr>
+	                                </tbody>
+	                            </table>
+	                        </div>
+	
+	                        <!-- Course Price Section -->
+	                        <div class="text-center ms-3 mt-3 mt-sm-0 p-3" style="width: 100%; max-width: 250px; background-color: #f8f9fa; border-radius: 8px;">
+	                            <p style="color: black; font-size: 1.6rem; font-weight: bold; margin-bottom: 10px;">Course Price at:</p>
+	                            <span class="h3" style="font-size: 2rem; color: #003b70; font-weight: bold;">20,000 + GST</span>
+	                        </div>
+	                    </div>
+	                    <div class="d-flex  justify-content gap-2" id="bk-demo">
+								<!-- Added d-flex and gap-2 -->
+								<button class="enrol-btn"
+									onclick="handleBookDemoClick()" style="cursor: pointer;">
+									<i class="fas fa-calendar-alt"></i> Book Free Demo
+								</button>
+								
+								<button class="enrol-btn"
+									onclick="handleAddToCardClick()" style="cursor: pointer;">
+									<i class="fas fa-calendar-alt"></i> Add To Card
+								</button>
+	
+							</div>
+	                </div>
+	                
+					
+	            </div>
+	
+	            <!-- Right Section: Form -->
+	<!--             <div class="col-lg-3 col-md-5 col-sm-12">
+	                <div class="form-container bg-white p-4 rounded shadow-sm">
+	                    <h3 class="mb-4 text-center">Form Section</h3>
+	                    <form style="color:black">
+	                        <div class="mb-3">
+	                            <label for="name" class="form-label">Name</label>
+	                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+	                        </div>
+	                        <div class="mb-3">
+	                            <label for="email" class="form-label">Email</label>
+	                            <input type="email" class="form-control" id="email" placeholder="Enter your email" >
+	                        </div>
+	                         <div class="mb-3">
+	                            <label for="number" class="form-label">Phone No</label>
+	                            <input type="email" class="form-control" id="email" placeholder="Phone Number">
+	                        </div>
+	                        <div class="mb-3">
+	                            <label for="message" class="form-label">Message</label>
+	                            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+	                        </div>
+	                        <button type="submit" class="btn btn-primary w-100">ENROLL NOW</button>
+	                    </form>
+	                </div>
+	            </div>
+	         -->
+	        </div>
+	   <!--  </div> -->
+	</section>
 
 	<!-- Footer Section -->
 	<footer class="text-center">

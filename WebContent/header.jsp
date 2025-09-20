@@ -880,7 +880,7 @@ a {
 									<li class="nav-item"><a class="nav-link"
 										href="contact-us.jsp">Contact</a></li>
 								</ul>
-								<a class="nav-btn" href="contact-us.jsp">
+								<a class="nav-btn" href="#">
 									<button class="btn btn-sm btn-warning">Hire Talent</button>
 								</a>
 							</div>
