@@ -840,7 +840,7 @@ body {
                 </div>
 
                 <!-- Right Section: Form -->
-                <div class="col-lg-3 col-md-5 col-sm-12">
+<!--                 <div class="col-lg-3 col-md-5 col-sm-12">
                     <div class="form-container bg-white p-4 rounded shadow-sm">
                         <h3 class="mb-4 text-center">Form Section</h3>
                         <form style="color:black">
@@ -864,6 +864,7 @@ body {
                         </form>
                     </div>
                 </div>
+             -->
             </div>
         </div>
     </section>
