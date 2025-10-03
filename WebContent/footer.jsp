@@ -50,10 +50,15 @@
 					students worldwide a high-quality educational experience. Our
 					mentors have over six years of professional expertise in their
 					fields.</p>
-				<div class="d-flex align-items-center mb-2">
-					<i class="fas fa-map-marker-alt mr-2"></i>
-					<p class="small mb-0">
+				<div class="d-flex mb-2">
+					<div class="mt-3">
+						<i class="fas fa-map-marker-alt mr-2"></i>
+					</div>
+					<!-- <p class="small mb-0">
 						145E,Swinhoe lane,Kasba <br> kolkata-700042
+					</p> -->
+					<p class="small mb-0 mt-2">
+						65/36, 11th Main Rd,<br> Near Ganesh Temple, KEB Colony,<br> 1st Stage, BTM 1st Stage,<br> Bengaluru
 					</p>
 				</div>
 				<div class="d-flex align-items-center mb-2">
@@ -62,7 +67,7 @@
 				</div>
 				<div class="d-flex align-items-center">
 					<i class="fas fa-phone-alt mr-2"></i>
-					<p class="small mb-0">+91 86977 41611</p>
+					<p class="small mb-0">+91 8334001667</p>
 				</div>
 			</div>
 

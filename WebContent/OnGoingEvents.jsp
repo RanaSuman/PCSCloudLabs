@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ongoing Events - CSS Button Modal Working</title>
+    <title>Add Ongoing Events</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -93,7 +93,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="addTime" class="form-label">Time</label>
-                                <input type="text" name="time" id="addTime" class="form-control" required>
+                                <input type="time" name="time" id="addTime" class="form-control" required>
                             </div>
                             <div class="mb-3">
                                 <label for="addStartDate" class="form-label">Start Date</label>
@@ -156,7 +156,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label for="time<%=ev.getId()%>" class="form-label">Time</label>
-                                                <input type="text" name="time" id="time<%=ev.getId()%>" class="form-control" value="<%=ev.getTime()%>" required>
+                                                <input type="time" name="time" id="time<%=ev.getId()%>" class="form-control" value="<%=ev.getTime()%>" required>
                                             </div>
                                             <div class="mb-3">
                                                 <label for="startDate<%=ev.getId()%>" class="form-label">Start Date</label>

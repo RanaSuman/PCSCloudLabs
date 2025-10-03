@@ -65,7 +65,7 @@
 				</div>
 				<div class="col-md-6 mt-md-5">
 					<div class="imag">
-						<img src="assets/images/About-2.jpg" alt="">
+						<img src="assets/images/NewImages/image6.jpg" alt="">
 					</div>
 				</div>
 			</div>

@@ -169,15 +169,15 @@ body {
 							<img src="<%=request.getContextPath() + "/" + ev.getImage()%>"
 								class="card-img-top" alt="Event Image" style="height: 200px;">
 							<div class="card-body">
-								<h5 class="card-title"><%=ev.getTitle()%></h5>
+								<h5 class="card-title" style="font-weight: 700;"><%=ev.getTitle()%></h5>
 								<p class="card-text mb-1">
 									<strong>Time:</strong>
 									<%=ev.getTime()%></p>
 								<p class="card-text mb-1">
-									<strong>Start:</strong>
+									<strong>Start Date:</strong>
 									<%=ev.getStartDate()%></p>
 								<p class="card-text">
-									<strong>End:</strong>
+									<strong>End Date:</strong>
 									<%=ev.getEndDate()%></p>
 							</div>
 						</div>

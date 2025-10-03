@@ -529,8 +529,8 @@ a {
 						<ul class="ulleft ">
 							<li><i class="far fa-envelope"></i>
 								training@pcscloudlabs.com <span class="line-bw">|</span></li>
-							<li><i class="fas fa-phone-volume"></i> +91-8697741611</li>
-							<li><i class="fas fa-phone-volume"></i> +91-9830376126</li>
+							<li><i class="fas fa-phone-volume"></i> +91-8334001667</li>
+						<!-- 	<li><i class="fas fa-phone-volume"></i> +91-9830376126</li> -->
 						</ul>
 					</div>
 
@@ -891,7 +891,7 @@ a {
 		</div>
 
 
-		<div class="clearFix"></div>
+		<!-- <div class="clearFix"></div>
 
 		<div class="topPanel">
 			<div class="container">
@@ -904,7 +904,7 @@ a {
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 
 
