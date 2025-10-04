@@ -357,9 +357,10 @@ iframe {
 						<h4 style="margin-top: 10px; color: royalblue">Bengaluru -
 							Headquarter</h4>
 							<p style="font-size: 16px;">
-								65/36, 11th Main Rd,<br> 
-								Near Ganesh Temple, KEB Colony,<br> 
-								1st Stage, BTM 1st Stage, Bengaluru<br>
+								57/65, Chikkalakshmaiah Layout,<br>
+Bengaluru, Karnataka 560029<br>
+Landmark: Opposite Beauty Trips or Beyond Health medical store
+
 								<span>
 									Contact Person : Mr. Sunit Chaudhuri <br>
 									Phone- (+91) 8334001667
@@ -395,9 +396,7 @@ iframe {
 							- PAN India & Overseas</h4>
 
 						Contact Persons : Mr. Alok Halder - +91 86977 41611<br>
-						Mr. Sunit Chaudhuri - +91 83340 01667<br>
-						Abhishek Ghosh - +91 6296 373 387<br>
-						Dipanwita Mukherjee - +91 86173 58027
+						Mr. Sunit Chaudhuri - +91 83340 01667
 					</div>
 				</div>
 			</div>
@@ -420,9 +419,10 @@ iframe {
 						<div class="contact-store-title">
 							<h3>Bengaluru H.Q.</h3>
 							<p>	
-								65/36, 11th Main Rd,
-								Near Ganesh Temple, KEB Colony,
-								1st Stage, BTM 1st Stage, Bengaluru
+								57/65, Chikkalakshmaiah Layout,
+Bengaluru, Karnataka 560029
+Landmark: Opposite Beauty Trips or Beyond Health medical store
+
 							</p>
 							<a
 								href="">bengaluru

@@ -52,7 +52,7 @@ margin-top: 0px !important;
                </div>
                <div class="col-md-6">
                    <div class="imag">
-                       <img src="assets/images/blog/about.jpg" alt="Java Training">
+                       <img src="assets/images/NewImages/image6.jpg" alt="Java Training">
                    </div>
                </div> 
               </div>

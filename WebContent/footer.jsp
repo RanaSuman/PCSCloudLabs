@@ -58,7 +58,9 @@
 						145E,Swinhoe lane,Kasba <br> kolkata-700042
 					</p> -->
 					<p class="small mb-0 mt-2">
-						65/36, 11th Main Rd,<br> Near Ganesh Temple, KEB Colony,<br> 1st Stage, BTM 1st Stage,<br> Bengaluru
+						57/65, Chikkalakshmaiah Layout,
+Bengaluru, Karnataka 560029
+Landmark: Opposite Beauty Trips or Beyond Health medical store
 					</p>
 				</div>
 				<div class="d-flex align-items-center mb-2">

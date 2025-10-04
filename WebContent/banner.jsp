@@ -652,7 +652,7 @@ body {
                   </p>
                 </div>
                 <div class="carousl">
-                  <img alt="Java Full Stack Training and Certification icons" height="450" src="assets/images/slider/back.png" width="450"/>
+                  <img alt="Java Full Stack Training and Certification icons" height="450" src="assets/images/NewImages/image3.jpg" width="450"/>
                 </div>
               </div>
             </div>
@@ -674,7 +674,73 @@ body {
                   </p>
                 </div>
                 <div class="carousl">
-                  <img alt="Advanced Java Full Stack Training" height="450" src="assets/images/slider/back.png" width="450"/>
+                  <img alt="Advanced Java Full Stack Training" height="450" src="assets/images/NewImages/image4.jpg" width="450"/>
+                </div>
+              </div>
+            </div>
+             <div class="carousel-item">
+              <div class="containr">
+                <div class="text-contet">
+                  <h2>Software Training & Placement</h2>
+                  <p>
+                    Get a Job-Guranteed!
+                    Enroll Now For Emerging Technologies and Trending Courses with Job Assurance
+                    17+ Years Experience in Software Training & Placemen
+                    17+ Years Experience in Software Training & Placements
+                    Avail Both Classroom & Online Courses
+                     Headquarted in Bangalore, Kolkata, Bhubaneswar and PAN India & Overseas
+                  </p>
+                  <a class="enrol-btn" href="#">Apply Online</a>
+                  <p class="powered-by">
+                    Powered by <span>PCS Cloud Labs</span>
+                  </p>
+                </div>
+                <div class="carousl">
+                  <img alt="Advanced Java Full Stack Training" height="450" src="assets/images/NewImages/image5.jpg" width="450"/>
+                </div>
+              </div>
+            </div>
+             <div class="carousel-item">
+              <div class="containr">
+                <div class="text-contet">
+                  <h2>Software Training & Placement</h2>
+                  <p>
+                    Get a Job-Guranteed!
+                    Enroll Now For Emerging Technologies and Trending Courses with Job Assurance
+                    17+ Years Experience in Software Training & Placemen
+                    17+ Years Experience in Software Training & Placements
+                    Avail Both Classroom & Online Courses
+                     Headquarted in Bangalore, Kolkata, Bhubaneswar and PAN India & Overseas
+                  </p>
+                  <a class="enrol-btn" href="#">Apply Online</a>
+                  <p class="powered-by">
+                    Powered by <span>PCS Cloud Labs</span>
+                  </p>
+                </div>
+                <div class="carousl">
+                  <img alt="Advanced Java Full Stack Training" height="450" src="assets/images/NewImages/image1.jpg" width="450"/>
+                </div>
+              </div>
+            </div>
+             <div class="carousel-item">
+              <div class="containr">
+                <div class="text-contet">
+                  <h2>Software Training & Placement</h2>
+                  <p>
+                    Get a Job-Guranteed!
+                    Enroll Now For Emerging Technologies and Trending Courses with Job Assurance
+                    17+ Years Experience in Software Training & Placemen
+                    17+ Years Experience in Software Training & Placements
+                    Avail Both Classroom & Online Courses
+                     Headquarted in Bangalore, Kolkata, Bhubaneswar and PAN India & Overseas
+                  </p>
+                  <a class="enrol-btn" href="#">Apply Online</a>
+                  <p class="powered-by">
+                    Powered by <span>PCS Cloud Labs</span>
+                  </p>
+                </div>
+                <div class="carousl">
+                  <img alt="Advanced Java Full Stack Training" height="450" src="assets/images/NewImages/image4.jpg" width="450"/>
                 </div>
               </div>
             </div>

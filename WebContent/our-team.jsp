@@ -158,23 +158,23 @@ to {
 					</div>
 				</div>
 				<!-- Team Member 2 -->
-				<div class="col-md-3 col-sm-6">
+				<!-- <div class="col-md-3 col-sm-6">
 					<div class="single-usr">
-						<!-- <img src="assets/images/team/.jpg" alt="Muruli Vijoy">
+						<img src="assets/images/team/.jpg" alt="Muruli Vijoy">
 						<div class="det-o">
 							<h4></h4>
 							<i>Data Science Trainer </i>
-						</div> -->
+						</div
 					</div>
-				</div>
+				</div> -->
 				<!-- Team Member 3 -->
 				<div class="col-md-3 col-sm-6">
 					<div class="single-usr">
-						<!-- <img src="assets/images/team/team-memb3.jpg" alt="Arijit Sen">
+						<img src="assets/images/team/team-memb3.jpg" alt="Arijit Sen">
 						<div class="det-o">
 							<h4>Arijit Sen</h4>
 							<i>AWS Cloud Trainer</i>
-						</div> -->
+						</div> 
 					</div>
 				</div>
 				

@@ -227,7 +227,7 @@ to {
 /* Ensure all course cards are the same size */
 .cord-div {
 	flex: 1 1 calc(33% - 30px); /* Ensures 3 items per row */
-	max-width: 350px; /* Ensures the card doesnât get too large */
+	max-width: 350px; /* Ensures the card doesnÃ¢ÂÂt get too large */
 	min-width: 300px;
 	margin-bottom: 30px;
 	display: flex;
@@ -1086,19 +1086,20 @@ img, svg {
 				<div class="col-md-12 col-sm-12">
 					<div class="blog-singe no-margin row">
 						<div class="col-sm-5 blog-img-tab">
-							<img src="assets/images/blog/about.jpg" alt="Java Training">
+							<img src="assets/images/NewImages/image6.jpg" alt="Java Training">
 						</div>
 						<div class="col-sm-1 blog-img-tab"></div>
 						<div class="col-sm-6 blog-content-tab">
 							<h2>Welcome to PCS Cloud Labs</h2>
 
 							<p>
-								PCS Cloud Lab is an online platform that offers students from
+								<!-- PCS Cloud Lab is an online platform that offers students from
 								all over the world a first-rate educational experience.</br> </br> Our
 								expertise mentors have more than six years of professional
 								experience in their specialised technological fields and have
 								been employed as working professionals for the past 10 to 11
-								years.
+								years.<br> -->
+								PCS Cloud Labs is a rapidly growing online training provider, backed by a team of 100+ experienced professional trainers. To date, we have successfully trained over 30,000 students worldwide. We look forward to welcoming you on board and helping you take the next step toward a successful career with PCS Cloud Labs.
 							</p>
 
 
@@ -1514,7 +1515,7 @@ img, svg {
 				</div>
 				
 				<!-- Team Member 3 -->
-				<!-- <div class="col-md-3 col-sm-6">
+				<div class="col-md-3 col-sm-6">
 					<div class="single-usr">
 						<img src="assets/images/team/team-memb3.jpg" alt="Arijit Sen">
 						<div class="det-o">
@@ -1522,7 +1523,7 @@ img, svg {
 							<i>AWS Cloud Trainer</i>
 						</div>
 					</div>
-				</div> -->
+				</div> 
 				<!-- Team Member 4 -->
 				<div class="col-md-3 col-sm-6">
 					<div class="single-usr">

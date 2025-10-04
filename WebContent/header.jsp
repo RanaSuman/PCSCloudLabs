@@ -521,6 +521,19 @@ a {
 	%>
 
 	<header class="continer-fluid ">
+		<div class="topPanel">
+			<div class="container">
+				<div class="row col-det">
+					<div class="col-lg-12 d-lg-block">
+						<ul class="ulleft">
+							<li>We Offer 100% Job Guarantee On Demand Courses ( Any Degree / Diploma / Non-IT / Any Year Passed Outs ) <a href="https://www.youtube.com/playlist?list=PLXFMnNRcDZnaUkb3lwqe-oARx3BcJ4t25" style="color: #fbfb00; cursor: pointer; ">Placement Records.</a>
+							
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<div class="header-top">
 			<div class="container">
@@ -681,9 +694,10 @@ a {
 		<div id="menu-jk" class="header-bottom">
 			<div class="container">
 				<div class="row nav-row">
-					<div class="col-lg-3 col-md-12 logo">
+					<div class="col-lg-3 col-md-12 logo text-center">
 						<a href="index.jsp"> <img src="assets/images/logo.jpg" alt="">
 						</a>
+						<p style="font-weight:800; color:#2782C2;">Training & Placement</p>
 					</div>
 					<div class="col-lg-9 col-md-12 nav-col">
 						<nav class="navbar navbar-expand-lg navbar-light">
