@@ -1150,7 +1150,7 @@ img, svg {
 						<i class="fas fa-phone-volume"></i>
 						<h4>24 x 7 Support</h4>
 						<p>
-							Reach us anytime at <strong>+91-9836812465</strong>
+							Reach us anytime at <strong>+91-8334001667</strong>
 						</p>
 					</div>
 				</div>

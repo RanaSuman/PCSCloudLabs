@@ -279,7 +279,7 @@ iframe {
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 contact-form">
-					<div class="row mt-5">
+					<div class="row my-5">
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249759.19784092825!2d79.10145254589841!3d12.009924873581818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1448883859107"
 							allowfullscreen></iframe>
@@ -356,10 +356,15 @@ iframe {
 					<div>
 						<h4 style="margin-top: 10px; color: royalblue">Bengaluru -
 							Headquarter</h4>
-							57/65, Chikkalakshmaiah Layout,<br>
-							Bengaluru, Karnataka 560029<br>
-							Landmark: Opposite Beauty Trips or Beyond Health medical store 
-							<br>Phone- (+91) 8697741611
+							<p style="font-size: 16px;">
+								65/36, 11th Main Rd,<br> 
+								Near Ganesh Temple, KEB Colony,<br> 
+								1st Stage, BTM 1st Stage, Bengaluru<br>
+								<span>
+									Contact Person : Mr. Sunit Chaudhuri <br>
+									Phone- (+91) 8334001667
+								</span>
+							</p>
 					</div>
 
 					<div>
@@ -389,7 +394,10 @@ iframe {
 						<h4 style="margin-top: 10px; color: royalblue">PCS Cloud Labs
 							- PAN India & Overseas</h4>
 
-						Contact Person : Mr. Alok Halder - +91 86977 41611 | Abhishek Ghosh - +91 6296 373 387 | Dipanwita Mukherjee - +91 86173 58027
+						Contact Persons : Mr. Alok Halder - +91 86977 41611<br>
+						Mr. Sunit Chaudhuri - +91 83340 01667<br>
+						Abhishek Ghosh - +91 6296 373 387<br>
+						Dipanwita Mukherjee - +91 86173 58027
 					</div>
 				</div>
 			</div>
@@ -411,10 +419,13 @@ iframe {
 						</div>
 						<div class="contact-store-title">
 							<h3>Bengaluru H.Q.</h3>
-							<p>57/65, Chikkalakshmaiah Layout,Hosur main road,
-								Bengaluru,Karnataka 560029 Bengaluru</p>
+							<p>	
+								65/36, 11th Main Rd,
+								Near Ganesh Temple, KEB Colony,
+								1st Stage, BTM 1st Stage, Bengaluru
+							</p>
 							<a
-								href="https://www.google.com/maps/place/Beyond+health+clinic+and+medical+shop/@12.9357488,77.6084033,19z/data=!4m10!3m9!1s0x3bae15c40de411c3:0x250f8515b62e6f80!5m3!1s2023-10-10!4m1!1i2!8m2!3d12.9360824!4d77.6089132!16s%2Fg%2F11h909gqqd?entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D">bengaluru
+								href="">bengaluru
 								Location</a>
 						</div>
 					</div>
@@ -423,16 +434,17 @@ iframe {
 				<div class="col-md-4">
 					<div class="contact-store-picture loc">
 						<div class="contact-store-img">
-							<img decoding="async" src="assets/images/content/kolkata.jpeg"
+							<img decoding="async" src="https://www.infinityitpark.com/assets/img/project/merlininfinite/main.jpg"
 								alt="Kolkata Orangemantra" class="lazyloaded"
 								style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
 						</div>
 						<div class="contact-store-title">
 							<h3>Kolkata Saltlake</h3>
-							<p>Godrej Genesis, Block EP & GP Opp to Syndicate Bank,
-								Sector V, Salt Lake City, Kolkata, West Bengal 700091, India</p>
+							<p>914, Merlin Infinite DN-51, 9th Floor,
+							Street Number 11, DN Block, Sector V, Bidhannagar,
+							Kolkata, West Bengal 700091</p>
 							<a
-								href="https://www.google.com/maps/place/Godrej+Genesis/@22.5730705,88.4338005,17z/data=!3m1!4b1!4m6!3m5!1s0x3a02754101008535:0xe5a40f5bdaad26f8!8m2!3d22.5730705!4d88.4338005!16s%2Fg%2F11l4n5cfyy?entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D">Kolkata
+								href="">Kolkata
 								Location</a>
 						</div>
 					</div>
